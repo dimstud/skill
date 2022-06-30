@@ -41,6 +41,7 @@
 body {
   margin: 0;
   font-family: 'Muller', sans-serif;
+  background-color: #F1F1F1;
 }
 
 a {
@@ -83,6 +84,30 @@ img {
 	margin: 0 auto;
 }
 
+/* Booton */
+.btn {
+  display: inline-block;
+  padding: 13px 20px;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1;
+  color: #CC9933;
+  background: none;
+}
+
+/* Section-title */
+.section-title {
+  margin-left: 40px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  color: #333333;
+}
+
+/* Header */
 .header-wrap {
   display: flex;
   align-items: center;
@@ -115,4 +140,115 @@ img {
   color: #CC9933;
   background: none;
   background: url("/img/keyboard_tab.svg") no-repeat left center;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  padding: 14px 45px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 642px;
+  margin-right: auto;
+}
+
+.menu-item {
+  height: 100%;
+}
+
+.menu-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #666666;
+}
+
+.menu-btn-tur {
+  margin-right: 40px;
+}
+
+/* Special */
+.special {
+  padding-top: 70px;
+}
+
+.special-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  width: 100%;
+}
+
+.special-item {
+  min-height: 258px;
+  margin-right: 24px;
+  padding: 40px 45px;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.special-item-maldives {
+  margin-bottom: 24px;
+  background-image: url("/img/maldives.jpg");
+}
+
+.special-item-krit {
+  background-image: url("/img/krit.jpg");
+}
+
+.special-block-big {
+  padding-top: 212px;
+  min-height: 540px;
+  background-image: url("/img/room.jpg");
+}
+
+.special-item-title {
+  width: 420px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1;
+  color: #FFFFFF;
+}
+
+.special-item-title-big {
+  width: 300px;
+  font-size: 60px;
+}
+
+.special-item-price {
+  margin-bottom: 47px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.special-item-price-big {
+  font-size: 30px;
+}
+
+.special-item-link {
+  display: inline-block;
+  width: 102px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #F0BF5F;
+  background-image: url("/img/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
 }
