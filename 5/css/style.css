@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'Muller';
+  src: url('/fonts/MullerLight.woff') format('woff2'),
+    url("/fonts/MullerLight.woff") format('woff');
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('/fonts/MullerRegular.woff2') format('woff2'),
+    url("/fonts/MullerRegular.woff") format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('/fonts/MullerMedium.woff2') format('woff2'),
+    url("/fonts/MullerMedium.woff") format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('/fonts/MullerBold.woff2') format('woff2'),
+    url("/fonts/MullerBold.woff") format('woff');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Muller', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.header-logo {
+  width: 261px;
+  height: 54px;
+  margin-right: 40px;
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  color: #666666;
+}
+
+.header-user {
+  margin-left: auto;
+}
+
+.header-btn-user {
+  padding: 5px 0px 5px 29px;
+  border: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1;
+  color: #CC9933;
+  background: none;
+  background: url("/img/keyboard_tab.svg") no-repeat left center;
+}
