@@ -179,7 +179,7 @@ img {
 
 /* Special */
 .special {
-  padding-top: 70px;
+  margin: 70px 0;
 }
 
 .special-wrap {
@@ -251,4 +251,82 @@ img {
   background-image: url("/img/arrow-right.svg");
   background-repeat: no-repeat;
   background-position: right center;
+}
+
+/* About */
+.about {
+  margin-bottom: 70px;
+}
+
+.about-descr {
+  width: 890px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+}
+
+/* Services */
+.services {
+  margin-bottom: 70px;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: max-content, max-content;
+  gap: 24px;
+}
+
+.services-item {
+  min-height: 330px;
+  background-color: #fff;
+  padding-bottom: 35px;
+  border-radius: 15px;
+}
+
+.services-item-img {
+  height: 165px;
+  width: 573px;
+  margin-bottom: 26px;
+  border-radius: 15px 15px 0 0;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services-item-img-exclusive {
+  background-image: url("/img/exclusive.jpg");
+}
+
+.services-item-img-arenda {
+  background-image: url("/img/arenda.jpg");
+}
+
+.services-item-img-sauna {
+  background-image: url("/img/sauna.jpg");
+}
+
+.services-item-img-security {
+  background-image: url("/img/security.jpg");
+}
+
+.services-item-link {
+  display: inline-block;
+  margin-left: 45px;
+  padding-right: 22px;
+  background-image: url('/img/arrow-right.svg');
+  background-position: right center;
+  background-repeat: no-repeat;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 2;
+  color: #CC9933;
+}
+
+.services-item-descr {
+  width: 400px;
+  margin-left: 45px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
 }
