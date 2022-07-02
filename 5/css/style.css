@@ -41,6 +41,7 @@
 body {
   margin: 0;
   font-family: 'Muller', sans-serif;
+  color: #000;
   background-color: #F1F1F1;
 }
 
@@ -191,7 +192,6 @@ img {
 
 .special-item {
   min-height: 258px;
-  margin-right: 24px;
   padding: 40px 45px;
   border-radius: 15px;
   background-repeat: no-repeat;
@@ -285,9 +285,13 @@ img {
 }
 
 .services-item-img {
-  height: 165px;
+  min-height: 165px;
   width: 573px;
   margin-bottom: 26px;
+  border-radius: 15px 15px 0 0;
+}
+
+.services-item-img > img {
   border-radius: 15px 15px 0 0;
 }
 
@@ -312,6 +316,155 @@ img {
   line-height: 2;
 }
 
+/* Advantages */
 .advantages {
   margin-bottom: 70px;
+}
+
+.advantages-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, max-content);
+  grid-auto-rows: max-content;
+  gap: 22px;
+}
+
+.advantages-item {
+  min-height: 276px;
+  padding: 116px 42px 32px 45px;
+  border-radius: 15px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 45px 40px;
+}
+
+.advantages-item-bathtub {
+  background-image: url(/img/bathtub.svg);
+}
+
+.advantages-item-hanger {
+  background-image: url(/img/hanger.svg);
+}
+
+.advantages-item-heating {
+  background-image: url(/img/heating.svg);
+}
+
+.advantages-item-hotel-key {
+  background-image: url(/img/hotel-key.svg);
+}
+
+.advantages-item-parking {
+  background-image: url(/img/parking.svg);
+}
+
+.advantages-item-reception {
+  background-image: url(/img/reception.svg);
+}
+
+.advantages-item-security-box {
+  background-image: url(/img/security-box.svg);
+}
+
+.advantages-item-swimming-pool {
+  background-image: url(/img/swimming-pool.svg);
+}
+
+.advantages-descr {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 2;
+}
+
+/* Placement */
+.placement {
+  margin-bottom: 70px;
+}
+
+.placement-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: max-content;
+  grid-auto-rows: max-content;
+  gap: 24px;
+}
+
+.placement-item {
+  min-height: 440px;
+  padding-bottom: 45px;
+  border-radius: 15px;
+  background-color: #fff;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.placement-img {
+  width: 374px;
+  height: 217px;
+  margin-bottom: 32px;
+}
+
+.placement-img > img {
+  border-radius: 15px 15px 0 0;
+}
+
+.placement-price {
+  display: inline-block;
+  width: 144px;
+  margin-right: 53px;
+  margin-left: 45px;
+  margin-bottom: 16px;
+  color: #999999;
+}
+
+.placement-price > span {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+
+.placement-price > b {
+  font-weight: normal;
+  color: #000000;
+}
+
+.placement-rating {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 94px;
+  height: 14px;
+}
+
+.placement-rating > span {
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-image: url("/img/star.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.placement-rating > span.active {
+  background-image: url("/img/star-active.svg");
+}
+
+.placement-title {
+  display: inline-block;
+  margin-left: 45px;
+  margin-bottom: 16px;
+  font-weight: normal;
+}
+
+.placement-address {
+  display: block;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  font-style: normal;
+  color: #999999;
+}
+
+.placement-link {
+  margin-left: 45px;
 }
