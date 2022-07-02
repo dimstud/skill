@@ -289,25 +289,6 @@ img {
   width: 573px;
   margin-bottom: 26px;
   border-radius: 15px 15px 0 0;
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.services-item-img-exclusive {
-  background-image: url("/img/exclusive.jpg");
-}
-
-.services-item-img-arenda {
-  background-image: url("/img/arenda.jpg");
-}
-
-.services-item-img-sauna {
-  background-image: url("/img/sauna.jpg");
-}
-
-.services-item-img-security {
-  background-image: url("/img/security.jpg");
 }
 
 .services-item-link {
@@ -329,4 +310,8 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 2;
+}
+
+.advantages {
+  margin-bottom: 70px;
 }
