@@ -468,3 +468,71 @@ img {
 .placement-link {
   margin-left: 45px;
 }
+
+.placement-item-all {
+  padding: 373px 54px 27px;
+  background-image: url("/img/card-all.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.placement-link-all {
+  display: block;
+  width: 277px;
+  padding-right: 11px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  color: #FFFFFF;
+  background-image: url("/img/arrow-right-with.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+/* Tur */
+
+/* Contacts */
+.contacts {
+  padding-bottom: 40px;
+}
+
+.contacts-wrap {
+  display: grid;
+  grid-template-columns: 375px 653px;
+  gap: 52px;
+  padding: 45px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.contacts-list {
+  margin-bottom: 45px;
+}
+
+.contacts-item {
+  display: flex;
+  margin-bottom: 25px;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #E9E9E9;
+}
+
+.contacts-item:last-child {
+  margin-bottom: 0;
+}
+
+.contact-item-title {
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.contacts-item-right {
+  width: 235px;
+  line-height: 1.5;
+}
+
+.contacts-link {
+  display: block;
+}
