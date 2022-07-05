@@ -41,6 +41,7 @@
 body {
   margin: 0;
   font-family: 'Muller', sans-serif;
+  font-size: 16px;
   color: #000;
   background-color: #F1F1F1;
 }
@@ -533,6 +534,28 @@ img {
   line-height: 1.5;
 }
 
+.contacts-address {
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: normal;
+}
+
 .contacts-link {
   display: block;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #CC9933;
+}
+
+.contacts-mail-deskr {
+  font-weight: normal;
+  line-height: 1.5;
+  color: #999999;
+}
+
+.contacts-btn {}
+
+.footer-container {
+  display: flex;
 }
