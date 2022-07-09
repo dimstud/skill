@@ -492,6 +492,18 @@ img {
 }
 
 /* Tur */
+.tur-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tur-label {
+  
+}
+
+.tur-name {
+  
+}
 
 /* Contacts */
 .contacts {

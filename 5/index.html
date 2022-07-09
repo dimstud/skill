@@ -310,9 +310,35 @@
 
     <srction class="tur">
       <div class="container tur-container">
-        <h2 class="section-title tur-tile">Хочу тур</h2>
-        <form action="tur">
-
+        <h2 class="section-title tur-tile">Хочу тур</h2>
+        <form class=atur-form" action="">
+          <div class="tur-wrap">
+            <label for="sity" class"tur-label">Город вылета</label>
+            <select name="sity" id="sity" class="tur-select">
+              <option class="tur-option" id="spb" value="Санкт-Петербург" selected>Санкт-Петербург</option>
+              <option class="tur-option" id="msc" value="Москва">Москва</option>
+            </select>
+          </div>
+          <label class"tur-label">
+            <span class="tur-name">Страна</span>
+            <select name="country" class="tur-select">
+              <option class="tur-option" id="aus" value="Аастралия" selected>Австралия</option>
+              <option class="tur-option" id="ast" value="Австрия" selected>Австрия</option>
+            </select>
+          </label>
+          <label class"tur-label">
+            <span class="tur-name">Дата прибытия</span>
+            <input type="date" name="date" class="tur-date" id="date" value="2021-10-18"></input>
+          </label>
+          <label class"tur-label">
+            <span class="tur-name">Ночей</span>
+            <input type="number" name="night" id="night" class="tur-number" value="6"></input>
+          </label>
+          <label class"tur-label">
+            <span class="tur-name">Туристы</span>
+            <input type="number" name="turists" id="turists" class="tur-number" value="2"></input>
+          </label>
+          <button type="submit">Найти</button>
         </form>
       </div>
     </srction>
