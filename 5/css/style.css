@@ -557,5 +557,43 @@ img {
 .contacts-btn {}
 
 .footer-container {
+  min-height: 340px;
   display: flex;
+  background-color: #333333;
+  background-image: url('/img/footer-logo.svg');
+  background-repeat: no-repeat;
+  background-position: 80% 100%;
+}
+
+.footer-descr {
+  width: 302px;
+  margin-right: 14%;
+}
+
+.footer-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 190%;
+  color: #fff;
+}
+
+.footer-policy {
+  line-height: 150%;
+  color: #CC9933;
+}
+
+.footer-contacts {
+  width: 360px;
+  margin-right: auto;
+}
+
+.footer-address {
+  font-style: normal;
+  color: #fff;
+}
+
+.footer-link {
+  display: block;
+  line-height: 150%;
+  color: #CC9933;
 }
