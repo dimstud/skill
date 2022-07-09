@@ -495,14 +495,18 @@ img {
 .tur-form {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  min-height: 106px;
+  background-color: #fff;
 }
 
 .tur-label {
-  
+  display: block;
 }
 
 .tur-name {
-  
+  font-size: 12px;
+  line-height: 1;
 }
 
 /* Contacts */
@@ -566,7 +570,11 @@ img {
   color: #999999;
 }
 
-.contacts-btn {}
+.contacts-btn {
+  padding: 17px 27px;
+}
+
+/* Footer */
 
 .footer-container {
   min-height: 340px;
