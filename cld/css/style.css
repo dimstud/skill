@@ -1,0 +1,215 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Regular.woff2') format('woff2'),
+    url("/fonts/Montserrat-Regular.woff") format('woff');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Medium.woff2') format('woff2'),
+    url("/fonts/Montserrat-Medium.woff") format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+    url("/fonts/Montserrat-SemiBold.woff") format('woff');
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Bold.woff2') format('woff2'),
+    url("/fonts/Montserrat-Bold.woff") format('woff');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+    url("/fonts/Montserrat-ExtraBold.woff") format('woff');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat';
+}
+
+body {
+	position: relative;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+	padding-top: 99px;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+	height: auto;
+}
+
+html {
+  height: 100%;
+}
+
+.container {
+	width: 290px;
+	margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 10;
+	min-height: 69px;
+	padding-top: 17px;
+	background-color: #fff;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 0px 0px 16px 16px;
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__burger {
+	width: 30px;
+	height: 23px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.header__burger span {
+	width: 30px;
+	height: 3px;
+	background-color: #000000;
+}
+
+.header__logo {
+ width: 110px;
+}
+
+.header__menu {
+	display: none;
+}
+
+.header__search {
+	position: relative;
+}
+
+.header__search-btn {
+	width: 24px;
+	height: 24px;
+	padding: 0;
+	border: none;
+	background: none;
+	background-image: url("/img/icon/search.svg");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.header__search-panel {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 20;
+	display: none;
+	padding: 21px;
+	min-height: 69px;
+	background-color: #fff;
+}
+
+.header__search-panel-container {
+	display: flex;
+	align-items: center;
+	width: 290px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.header__search-panel-form {
+	display: flex;
+}
+
+.header__search-panel-input {
+	display: inline-block;
+	width: 222px;
+	border: none;
+	border-bottom: 1px solid #DCDCDC;
+	font-size: 16px;
+	line-height: 1;
+	color: #ADADAD;
+}
+
+.header__search-panel-input::placeholder {
+	font-size: 16px;
+	line-height: 1;
+	color: #ADADAD;
+}
+
+.header__search-panel-btn {
+	width: 24px;
+	height: 24px;
+	padding: 0;
+	border: none;
+	font-size: 0;
+	background: none;
+	background-image: url("/img/icon/search-form.svg");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.header__search-panel-close {
+	width: 24px;
+	height: 24px;
+	margin-left: auto;
+	background-image: url("/img/icon/closed_search.svg");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
