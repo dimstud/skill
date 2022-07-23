@@ -93,6 +93,12 @@ html {
 	margin: 0 auto;
 }
 
+.section__title {
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 400;
+}
+
 /* Btn */
 .btn {
 	display: block;
@@ -352,4 +358,11 @@ html {
 
 .hero__img-3 {
 	background-image: url("/img/hero/hero-pic-320-3.jpg");
+}
+
+/* About */
+.about__descr {
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 400;
 }
