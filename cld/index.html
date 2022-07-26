@@ -101,25 +101,31 @@
         <div class="about__wrap">
           <div class="about__img">
             <div class="about__img-wrap">
-              <p class="about__img-desc">Принимая во внимание показатели успешности, перспективное планирование
+              <picture>
+                <source media="(max-width: 767px)" srcset="/img/about/about-320.jpg">
+                <source media="(max-width: 1023px)" srcset="/img/about/about-768.jpg">
+                <source media="(max-width: 1919px)" srcset="/img/about/about-1024.jpg">
+                <img src="/img/about/about-1920.jpg" alt="Специалист составляет смету">
+              </picture>
+              <p class="about__desc about__img-desc">Принимая во внимание показатели успешности, перспективное планирование
                 способствует подготовке и реализации новых принципов</p>
               <button class="btn btn__about">Подробнее</button>
             </div>
           </div>
           <ul class="about__list">
             <li class="about__item">
-              <div class="about__item-icon"></div>
+              <div class="about__item-icon about__item-icon-gear"></div>
               <div class="about__item-wrap">
                 <h3 class="about__item-title">Консультация с широким активом</h3>
-                <p class="about__item-desc">А также свежий взгляд на привычные вещи — безусловно открывает новые
+                <p class="about__desc about__item-desc">А также свежий взгляд на привычные вещи — безусловно открывает новые
                   горизонты для как самодостаточных, так и внешне зависимых концептуальных решений</p>
               </div>
             </li>
             <li class="about__item">
-              <div class="about__item-icon"></div>
+              <div class="about__item-icon about__item-icon-package"></div>
               <div class="about__item-wrap">
                 <h3 class="about__item-title">В своём стремлении повысить</h3>
-                <p class="about__item-desc">Качество жизни, они забывают, что сплочённость команды профессионалов
+                <p class="about__desc about__item-desc">Качество жизни, они забывают, что сплочённость команды профессионалов
                   представляет собой интересный эксперимент проверки прогресса профессионального сообщества</p>
               </div>
             </li>
