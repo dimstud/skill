@@ -123,6 +123,14 @@ html {
 	padding: 12px 44px;
 }
 
+.btn__how {
+	padding: 12px 32px;
+	border: 1px solid #000;
+	background-color: #fff;
+	font-weight: 400;
+	color: #000;
+}
+
 /* Header */
 
 .header {
@@ -423,4 +431,97 @@ html {
 	font-size: 18px;
 	line-height: 22px;
 	color: #000000;
+}
+
+/* How */
+.how {
+	margin-bottom: 60px;
+}
+
+.how__step-list {
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.how__step-btn {
+	text-transform: lowercase;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1;
+	color: #000;
+	background: none;
+	border: none;
+}
+
+.how__step-btn--active {
+	color: #E1670E;
+}
+
+.how__item {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.how__item-title {
+	margin-bottom: 8px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1;
+	color: #000000;
+}
+
+.how__img {
+	margin-bottom: 16px;
+}
+
+.how__item-desc {
+	margin-bottom: 25px;
+	font-size: 14px;
+	line-height: 2;
+	font-weight: 400;
+	color: #000;
+}
+
+.how__item-btns {
+	display: flex;
+}
+
+.faq {
+	margin-bottom: 60px;
+}
+
+.faq__item {
+	padding: 30px 0;
+	border-bottom: 1px solid #CACACA;
+}
+
+.faq__item:first-child {
+	border-top: 1px solid #CACACA;
+}
+
+.faq__item-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.faq__item-desc {
+	width: 245px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 2;
+	color: #000000;
+}
+
+.faq__item-btn {
+	width: 30px;
+	height: 30px;
+	background-image: url("/img/icon/plus.svg");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.faq__item-block {
+	display: none;
 }
