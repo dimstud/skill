@@ -43,6 +43,19 @@
   font-style: normal;
 }
 
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 * {
 	box-sizing: border-box;
 	font-family: 'Montserrat';
@@ -131,6 +144,9 @@ html {
 	color: #000;
 }
 
+.btn__form {
+	margin-bottom: 12px;
+}
 /* Header */
 
 .header {
@@ -526,8 +542,9 @@ html {
 	display: none;
 }
 
+/* Footer */
 .footer {
-  padding: 33px 0;
+  padding: 33px 0 30px;
   background-color: #000;
 }
 
@@ -539,7 +556,7 @@ html {
 .footer__block-link-img {
   width: 131px;
   height: 42px;
-  margin: 0 auto;
+  margin: 0 auto 16px;
 }
 
 .footer__block-link-menu {
@@ -578,15 +595,24 @@ html {
 
 .footer__block-form {
   order: -1;
+	padding-bottom: 16px;
+	margin-bottom: 16px;
+	border-bottom: 1px solid #414141;
 }
 
 .footer__block-form-title {
+	margin-bottom: 20px;
   font-size: 24px;
   line-height: 1;
   font-weight: 400;
   color: #CACACA;
 }
 
+.footer__block-desk {
+  display: none;
+}
+
+/* Form */
 .form__input {
   display: block;
   width: 100%;
@@ -600,12 +626,50 @@ html {
   color: #CACACA;
 }
 
-.form__input:placeholder {
+.form__input:not(:last-child) {
+	margin-bottom: 25px;
+}
+
+.form__input::placeholder {
   font-size: 14px;
   line-height: 32px;
   color: #CACACA;
 }
 
-.footer__block-desk {
-  display: none;
+.form__label {
+	position: relative;
+	margin-bottom: 12px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+	color: #CACACA;
+}
+
+.form__check {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.form__check+label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.form__check+label::before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+	margin-right: 5px;
+  border: 1px solid #adb5bd;
+  border-radius: 0.25em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 70% 70%;
+}
+
+.form__check:checked+label::before {
+  background-image: url("/img/icon/check.svg");
 }

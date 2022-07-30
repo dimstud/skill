@@ -364,15 +364,15 @@
 
         <form class="footer__block-form-list form" action="" method="get" accept-charset="utf-8">
           <input type="text" name="name" id="name" placeholder="Фамилия, имя и отчество*" class="form__input">
+          
           <input type="email" name="mail" id="mail" placeholder="Email*" class="form__input">
-          <textarea name="message" id="message" rows="8" cols="40" placeholder="Сообщение"
-            class="form__input form__textarea"></textarea>
+          
+          <textarea name="message" id="message" rows="8" cols="40" placeholder="Сообщение" class="form__input form__textarea"></textarea>
+          
           <div class="form__wrap">
-            <button type="submit" class="btn">Отправить данные</button>
-            <label class="form__label">
-              <input type="checkbox" name="consent" id="consent" class="form__check">
-              Согласен на обработку данных
-            </label>
+            <button type="submit" class="btn btn__form">Отправить данные</button>
+            <input type="checkbox" name="consent" id="consent" class="form__check">
+            <label class="form__label" for="consent">Согласен на обработку данных</label>
           </div>
         </form>
       </div>
