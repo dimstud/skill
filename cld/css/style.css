@@ -156,8 +156,7 @@ html {
 	left: 0;
 	z-index: 10;
 	width: 100vw;
-	min-height: 69px;
-	padding-top: 17px;
+	height: 69px;
 	background-color: #fff;
 	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 	border-radius: 0px 0px 16px 16px;
@@ -165,6 +164,7 @@ html {
 
 .header__container {
 	display: flex;
+	height: 100%;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -194,7 +194,7 @@ html {
 	right: 0;
 	bottom: 0;
 	z-index: 30;
-	display: block;
+	display: none;
 	height: 100vh;
 	padding: 23px 15px;
 	background-color: #fff;
@@ -225,7 +225,7 @@ html {
 	display: none;
 	width: 100vw;
 	padding: 21px 0;
-	min-height: 69px;
+	height: 69px;
 	background-color: #fff;
 	border-radius: 0px 0px 16px 16px;
 }
@@ -283,6 +283,7 @@ html {
 
 /* Menu */
 .menu {
+	overflow: scroll;
 	border-radius: 0px 0px 16px 16px;
 }
 
@@ -328,7 +329,7 @@ html {
 
 .hero__container {
 	height: 308px;
-	padding: 60px 22px 15px 22px;
+	padding: 60px 22px 15px;
 }
 
 .hero__title {
@@ -674,10 +675,3 @@ html {
   background-image: url("/img/icon/check.svg");
 }
 
-/* Media */
-
-@media (min-width: 768px) {
-	.container {
-		width: 688px;
-	}
-}
