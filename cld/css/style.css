@@ -128,14 +128,6 @@ html {
 	color: #FFFFFF;
 }
 
-.btn__about {
-	margin-left: 0;
-	border: 2px solid #FF9900;
-	background-color: #fff;
-	color: #FF9900;
-	padding: 12px 44px;
-}
-
 .btn__how {
 	padding: 12px 32px;
 	border: 1px solid #000;
@@ -409,16 +401,37 @@ html {
 }
  
 .about__img {
+	position: relative;
+	height: 400px;
 	margin-bottom: 32px;
+	background-image: url("/img/about/about-320.jpg");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 16px 16px 0 0;
 }
 
-.about__img-wrap img {
-	border-radius: 16px;
-	margin-bottom: 4px;
+.about__img-wrap {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
 .about__img-desc {
 	margin-bottom: 14px;
+	font-size: 14px;
+	line-height: 2;
+	font-weight: 400;
+	color: #000000;
+}
+
+.about__btn {
+	margin-left: 0;
+	border: 2px solid #FF9900;
+	background-color: #fff;
+	color: #FF9900;
+	padding: 12px 44px;
 }
 
 .about__item:not(:last-child) {
@@ -446,7 +459,7 @@ html {
 	margin-bottom: 4px;
 	font-weight: 500;
 	font-size: 18px;
-	line-height: 22px;
+	line-height: 1;
 	color: #000000;
 }
 
