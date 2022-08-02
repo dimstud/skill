@@ -91,6 +91,7 @@
 		margin-bottom: 140px;
 		padding: 25px 39px;
 		font-size: 23px;
+		border-radius: 16px;
 	}
 
 	.hero__img-1 {
@@ -170,5 +171,47 @@
 	.about__item-title {
 		font-size: 24px;
 		font-weight: 700;
+	}
+
+	/* How */
+	.how {
+		margin-bottom: 50px;
+	}
+
+	.how__step-list {
+		justify-content: space-between;
+		margin: 50px 0;
+	}
+
+	.how__step-btn {
+		font-size: 18px;
+	}
+
+	.how__item-title {
+		font-weight: 700;
+		font-size: 24px;
+	}
+
+	.how__img {
+		margin-bottom: 38px;
+	}
+
+	.how__item-desc {
+		font-size: 16px;
+	}
+
+	.how__item-btns {
+		display: inline-flex;
+	}
+
+	.how .btn {
+		padding: 20px 38px;
+		border-radius: 16px;
+	}
+
+	.how__btn {
+		margin-left: 32px;
+		padding: 20px 38px;
+		border-radius: 16px;
 	}
 }

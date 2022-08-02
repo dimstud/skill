@@ -93,7 +93,7 @@ ul {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 	height: auto;
 }
 
@@ -126,14 +126,6 @@ html {
 	font-size: 12px;
 	line-height: 15px;
 	color: #FFFFFF;
-}
-
-.btn__how {
-	padding: 12px 32px;
-	border: 1px solid #000;
-	background-color: #fff;
-	font-weight: 400;
-	color: #000;
 }
 
 .btn__form {
@@ -514,6 +506,14 @@ html {
 
 .how__item-btns {
 	display: flex;
+}
+
+.how__btn {
+	padding: 12px 32px;
+	border: 1px solid #000;
+	background-color: #fff;
+	font-weight: 400;
+	color: #000;
 }
 
 .faq {
