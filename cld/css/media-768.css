@@ -8,6 +8,11 @@
 	.section__title {
 		font-size: 48px;
 	}
+
+	/* Btn */
+	.btn {
+		font-size: 16px;
+	}
 	
 	/* Header */
 	.hero {
@@ -232,5 +237,59 @@
 	.faq__item-btn {
 		width: 50px;
 		height: 50px;
+	}
+
+	/* Footer */
+	.footer {
+		padding: 50px 0;
+	}
+
+	.footer__block-link-img {
+		margin-left: 0;
+	}
+
+	.footer-social {
+		width: 540px;
+		justify-content: start;
+	}
+
+	.footer-social__item:not(:last-child) {
+		margin-right: 25px;
+	}
+
+	.footer__block-form-title {
+		margin-bottom: 25px;
+		font-size: 48px;
+	}
+
+	.footer__block-form {
+		width: 541px;
+		margin-bottom: 50px;
+		padding-bottom: 0;
+		border: none;
+	}
+
+	/* Form */
+	.form__input {
+		padding-left: 24px;
+		font-size: 16px;
+	}
+
+	.form__input::placeholder {
+		font-size: 16px;
+	}
+	
+	.form__wrap {
+		display: flex;
+	}
+
+	.form__btn {
+		margin: 0;
+		margin-right: 20px;
+		padding: 19px 38px;
+	}
+
+	.form__label {
+		margin: 0;
 	}
 }

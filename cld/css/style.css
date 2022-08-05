@@ -128,11 +128,7 @@ html {
 	color: #FFFFFF;
 }
 
-.btn__form {
-	margin-bottom: 12px;
-}
 /* Header */
-
 .header {
 	position: fixed;
 	top: 0;
@@ -689,3 +685,10 @@ html {
   background-image: url("/img/icon/check.svg");
 }
 
+.form__textarea {
+	height: 150px;
+}
+
+.form__btn {
+	margin-bottom: 12px;
+}
