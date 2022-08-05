@@ -214,4 +214,23 @@
 		padding: 20px 38px;
 		border-radius: 16px;
 	}
+
+	/* Faq */
+	.faq {
+		margin: 0;
+		padding-bottom: 110px;
+	}
+
+	.faq__item-desc {
+		width: 570px;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 32px;
+		color: #000000;
+	}
+
+	.faq__item-btn {
+		width: 50px;
+		height: 50px;
+	}
 }
