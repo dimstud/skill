@@ -245,6 +245,8 @@
 	}
 
 	.footer__block-link-img {
+		width: 224px;
+		height: 72px;
 		margin-left: 0;
 	}
 
