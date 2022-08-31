@@ -1,0 +1,17 @@
+@media (min-width: 1024px) {
+	.container {
+		width: 924px;
+	}
+
+	
+
+	/* Header */
+	.header {
+		height: 100px;
+	}
+
+	/* Hero */
+	.hero {
+		margin-top: 140px;
+	}
+}
