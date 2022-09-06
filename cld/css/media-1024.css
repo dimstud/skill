@@ -14,4 +14,25 @@
 	.hero {
 		margin-top: 140px;
 	}
+
+	.hero__container {
+		padding: 160px 77px;
+	}
+
+	.hero__title {
+		font-size: 60px;
+		line-height: 73px;
+	}
+
+	.hero__img-1 {
+		background-image: url("/img/hero/hero-pic-1024-1.jpg");
+	}
+
+	.hero__img-2 {
+		background-image: url("/img/hero/hero-pic-1024-2.jpg");
+	}
+
+	.hero__img-3 {
+		background-image: url("/img/hero/hero-pic-1024-3.jpg");
+	}
 }
