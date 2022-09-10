@@ -35,4 +35,33 @@
 	.hero__img-3 {
 		background-image: url("/img/hero/hero-pic-1024-3.jpg");
 	}
+
+	.hero__btn {
+		margin-bottom: 115px;
+	}
+
+	.hero__dots {
+		width: 85px;
+	}
+
+	.hero__dot {
+		width: 15px;
+		height: 15px;
+	}
+
+	/* About */
+	.about__item {
+		padding-top: 65px;
+		padding-left: 77px;
+		padding-right: 155px;
+	}
+
+	.about__item-icon {
+		width: 190px;
+		height: 195px;
+	}
+
+	.about__desc {
+		width: 450px;
+	}
 }
