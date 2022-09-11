@@ -64,4 +64,9 @@
 	.about__desc {
 		width: 450px;
 	}
+	
+	.how__item {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
+	}
 }
