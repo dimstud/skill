@@ -51,6 +51,7 @@
 
 	/* About */
 	.about__item {
+		min-height: 295px;
 		padding-top: 65px;
 		padding-left: 77px;
 		padding-right: 155px;
@@ -63,10 +64,12 @@
 
 	.about__desc {
 		width: 450px;
+		margin-bottom: 0;
 	}
 	
 	.how__item {
 	  display: grid;
 	  grid-template-columns: 1fr 1fr;
+		column-gap: 50px;
 	}
 }
