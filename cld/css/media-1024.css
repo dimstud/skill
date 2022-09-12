@@ -10,6 +10,18 @@
 		height: 100px;
 	}
 
+	.header__menu {
+		padding-top: 38px;
+	}
+
+	.header__search-panel-container {
+		width: 540px;
+	}
+
+	.header__search-panel-close {
+		margin-left: 22px;
+	}
+
 	/* Hero */
 	.hero {
 		margin-top: 140px;
@@ -62,14 +74,75 @@
 		height: 195px;
 	}
 
-	.about__desc {
-		width: 450px;
+	.about__item-desc {
 		margin-bottom: 0;
 	}
-	
+
 	.how__item {
 	  display: grid;
 	  grid-template-columns: 1fr 1fr;
 		column-gap: 50px;
+	}
+
+	/* Faq */
+	.faq {
+		padding-bottom: 80px;
+	}
+
+	.faq__title {
+		margin-bottom: 32px;
+	}
+
+	.faq__item {
+		padding: 39px 0;
+	}
+
+	/* Footer */
+	.footer__container {
+		flex-direction: row;
+		justify-content: space-between;
+		min-height: 494px;
+	}
+
+	.footer__block-link {
+		width: 250px;
+	}
+
+	.footer__block-link-img {
+		margin: 0;
+		margin-bottom: 20px;
+	}
+
+	.footer__block-link-menu {
+		display: block;
+		margin-bottom: auto;
+	}
+
+	.footer-menu__link {
+		font-size: 18px;
+		line-height: 2;
+		color: #CACACA;
+	}
+
+	.footer__block-link-social {
+		margin-top: 90px
+	}
+
+	.footer-social {
+		width: auto;
+	}
+
+	.footer-social__link {
+		width: 50px;
+		height: 50px;
+	}
+
+	.footer__block-form {
+		order: 0;
+		margin-bottom: 0;
+	}
+
+	.footer__block-form-title {
+		line-height: 58px;
 	}
 }
