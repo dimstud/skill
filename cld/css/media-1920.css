@@ -1,0 +1,171 @@
+@media (min-width: 1920px) {
+	.container {
+		width: 1770px;
+	}
+
+	.section__title {
+		margin: 0;
+	}
+
+	/* Header */
+	.header__burger {
+		display: none;
+	}
+
+	.header__logo {
+		width: 225px;
+		height: 72px;
+		margin-right: 553px;
+	}
+
+	.header__container {
+		justify-content: start;
+	}
+
+	.header__menu {
+		width: auto;
+		height: auto;
+		padding: 0;
+	}
+
+	.header__search {
+		margin-left: auto;
+	}
+
+	/* Menu */
+	.menu {
+		position: unset;
+		display: block;
+		height: 100%;
+		border-radius: 0;
+		overflow: unset;
+	}
+
+	.menu__close {
+		display: none;
+	}
+
+	.menu__list {
+		flex-direction: row;
+		height: 100%;
+	}
+
+	.menu__item {
+		display: block;
+		height: 100%;
+	}
+
+	.menu__item:not(:last-child) {
+		margin-right: 85px;
+	}
+
+	.menu__link {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		padding: 0;
+	}
+
+	/* Hero */
+	.hero {
+		height: auto;
+		margin-top: 150px;
+		margin-bottom: 50px;
+	}
+
+	.hero__container {
+		height: 620px;
+		padding: 100px 0px 30px 80px;
+	}
+
+	.hero__title {
+		font-size: 60px;
+		line-height: 73px;
+	}
+
+	.hero__img-1 {
+		background-image: url("/img/hero/hero-pic-1920-1.jpg");
+	}
+
+	.hero__img-2 {
+		background-image: url("/img/hero/hero-pic-1920-2.jpg");
+	}
+
+	.hero__img-3 {
+		background-image: url("/img/hero/hero-pic-1920-3.jpg");
+	}
+
+	.hero__title {
+		width: 838px;
+		margin-bottom: 24px;
+		font-size: 70px;
+		line-height: 85px;
+		text-align: left;
+	}
+
+	.hero__desc {
+		width: 790px;
+		margin-bottom: 90px;
+		font-size: 24px;
+		line-height: 29px;
+		text-align: left;
+	}
+
+	.hero__btn {
+		margin-bottom: 55px;
+	}
+
+	/* About */
+	.about__desc {
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+
+	.about__wrap {
+		display: flex;
+		justify-content: space-between;
+		height: 622px;
+	}
+
+	.about__img {
+		width: 868px;
+		height: 100%;
+		margin: 0;
+	}
+
+	.about__list {
+		width: 870px;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.about__item {
+		margin: 0;
+		padding: 65px 120px 0px 60px;
+	}
+
+	.about__item-desc {
+		width: 450px;
+	}
+
+	.about__item-title {
+		margin-bottom: 8px;
+	}
+
+	.about__item-wrap {
+		margin: 0;
+	}
+
+	/* How */
+	.how__step-list {
+		justify-content: start;
+		margin-top: 50px;
+		margin-bottom: 45px;
+	}
+
+	.how__step-item:not(:last-child) {
+		margin-right: 85px;
+	}
+}
