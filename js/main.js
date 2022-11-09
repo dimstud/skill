@@ -1,3 +1,4 @@
+// 1
 let x1 = 2,
   x2 = 10,
   y1 = 3,
@@ -11,3 +12,21 @@ let x1 = 2,
 
 //S = ((x2 - x1)2 + (y2 - y1)2) / 2
 
+
+// 2
+const drodAnd = (a, b, n) => {
+  let aRez = Math.trunc((a - Math.floor(a)) * Math.pow(10, n));
+  let bRez = Math.trunc((b - Math.floor(b)) * Math.pow(10, n));
+  console.log(aRez);
+  console.log(bRez);
+  console.log(aRez > bRez);
+  console.log(aRez < bRez);
+  console.log(aRez >= bRez);
+  console.log(aRez <= bRez);
+  console.log(aRez === bRez);
+  console.log(aRez != bRez);
+};
+
+drodAnd(13.123456789, 2.123, 5);
+drodAnd(13.890123, 2.891564, 2 );
+drodAnd(13.890123, 2.891564, 3 );
